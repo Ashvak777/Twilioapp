@@ -1,0 +1,60 @@
+# Project Rules for Cursor AI
+
+## Core Instructions
+- Always write full code (no placeholders)
+- Break down tasks into small, testable steps
+- Explain before implementing
+- Never replace code with comments like "// rest of code here"
+
+## Code Style
+- Use TypeScript with React functional components
+- Add type definitions to all functions
+- Write descriptive variable names (use full words, not abbreviations)
+- Add comments to explain complex logic
+- Use Tailwind CSS for styling
+
+## Framework and Libraries
+- React 18 with functional components
+- Use hooks (useState, useEffect, etc.)
+- No class components
+- TypeScript for type safety
+- Express.js for backend API
+
+## File Organization
+- Each component in its own folder
+- Keep components under 300 lines
+- Reusable logic → /utils folder
+- Types → /types folder
+- Services → /services folder
+
+## Testing
+- Write tests for all business logic
+- Use Jest for unit tests
+- Test both success and error cases
+- Validate and handle errors gracefully
+
+## Error Handling
+- Always add try-catch blocks for async operations
+- Show user-friendly error messages
+- Log errors to the console for debugging
+- Never skip error handling
+
+## API & Backend
+- Use environment variables for sensitive data
+- Validate all inputs
+- Return proper HTTP status codes
+- Include error messages in API responses
+
+## What NOT to Do
+- Don't use deprecated packages or methods
+- Don't skip error handling
+- Don't create files outside the project structure
+- Don't change working code unless asked
+- Don't hardcode API keys or secrets
+
+## Design Preferences
+- Use dark and white color scheme
+- Avoid using yellow
+- Keep UI clean and modern
+- Ensure mobile responsiveness
+
